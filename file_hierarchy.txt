@@ -1,0 +1,16 @@
+Files needed to build the chatbot
+
+-> preprocess.py 
+    This file gathers the data and creates a csv dataset where the data is preprocessed and stored in.
+-> model.py
+    This file is used to train and analyse different models.
+-> ic_model.py
+    This is the intent classification model which will predict the intent of the users msg.
+-> alogrithm.py
+    This files must contain the algorithm for repsonse intent generation and next price generation alogrithm.
+-> intent_timeline.npy
+    This file contains all the buyer's and bot's intent in an ongoing session/conversation.
+-> response.py
+    This files must use the result fo the previous algorithm to create a correct bot response text and send it to user.
+-> app.py 
+    This file should make use of ic_model.py, algorithm.py, response.py to run the chatbot

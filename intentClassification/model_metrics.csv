@@ -1,0 +1,15 @@
+model,f1 score,train accuracy,test accuracy,vectorizer
+XGBClassifier,0.734085441417435,92,73,Count vector
+XGBClassifier,0.7243509801640442,96,72,Tfidf vector
+RandomForestClassifier,0.7159764687875719,98,72,Tfidf vector
+RandomForestClassifier,0.7097614547435346,98,71,Count vector
+SVC,0.7041854089284202,79,71,Tfidf vector
+SVC,0.6959321333580584,84,70,Count vector
+LogisticRegression,0.692139335995469,80,69,Count vector
+LogisticRegression,0.6904195388123964,76,69,Tfidf vector
+DecisionTreeClassifier,0.6499060939076853,98,65,Count vector
+DecisionTreeClassifier,0.6382267784107084,98,64,Tfidf vector
+MultinomialNB,0.6204234235020203,67,63,Count vector
+KNeighborsClassifier,0.570826804212205,69,58,Count vector
+MultinomialNB,0.5350030585609126,60,56,Tfidf vector
+KNeighborsClassifier,0.5341801203052992,68,54,Tfidf vector
